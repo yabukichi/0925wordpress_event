@@ -3,22 +3,22 @@
     padding: 0.6rem 2rem;
     color: #fff;
     border-radius: 10px;
-    background: #cb2e27;
+    background: $blue;
     font-size: 16px;
 }
 .yabu_column {
     p {
         font-size: 14px;
         line-height: 1.8;
-        color: $red;
+        color: $blue;
         margin-bottom: 8px;
     }
     .yabu_h3 {
         padding: 8px 20px;
         border-radius: 16px;
-        border: solid 2px red;
+        border: solid 2px $blue;
         font-size: 14px;
-        color: red;
+        color: $blue;
     }
     .wp-block-image:not(.is-style-rounded) img {
         border-radius: 16px;
@@ -33,7 +33,7 @@
             width: 90%;
             top: 25.5vw;
             .uagb-post__taxonomy a{
-                background: red;
+                background: $blue;
                 color: white;
                 padding: 2px 8px 4px;
                 border-radius: 16px;
@@ -56,16 +56,17 @@
     .uagb-post-grid .uagb-post__title {
         display: block;
         padding: 1rem;
-        color: $red;
+        color: $blue;
         background: white;
         position: absolute;
         right: 0;
         top: 0;
         overflow: hidden;
         a {
-            color: $red;
+            color: $blue;
             writing-mode: vertical-rl;
-            white-space: nowrap;        
+            white-space: nowrap;
+            height: 140px;
         }
     }
     
@@ -78,7 +79,7 @@
         margin-bottom: 55px;
         a.uagb-marketing-btn__link {
             width: 100%;
-            background: $red;
+            background: $blue;
             border-radius: 8px;
             padding: 16px;
         }
