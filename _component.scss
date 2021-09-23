@@ -1,0 +1,98 @@
+.yabu_h2 {
+    position: relative;
+    padding: 0.6rem 2rem;
+    color: #fff;
+    border-radius: 10px;
+    background: #cb2e27;
+    font-size: 16px;
+}
+.yabu_column {
+    p {
+        font-size: 14px;
+        line-height: 1.8;
+        color: $red;
+        margin-bottom: 8px;
+    }
+    .yabu_h3 {
+        padding: 8px 20px;
+        border-radius: 16px;
+        border: solid 2px red;
+        font-size: 14px;
+        color: red;
+    }
+    .wp-block-image:not(.is-style-rounded) img {
+        border-radius: 16px;
+    }
+    .uagb-post__inner-wrap{
+        background: white;
+    }
+    .yabu_pickup .uagb-post__inner-wrap {
+        height: 30vw;
+        .uagb-post-grid-byline {
+            position: absolute;
+            width: 90%;
+            top: 25.5vw;
+            .uagb-post__taxonomy a{
+                background: red;
+                color: white;
+                padding: 2px 8px 4px;
+                border-radius: 16px;
+            }
+        }
+    }
+    .uagb-post__image {
+        border-radius: 16px;
+        .yabu_column .uagb-post__image img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .uagb-post-grid{
+        background-color: white;
+    }
+    .uagb-post-grid .uagb-post__text{
+        overflow: initial;
+    }
+    .uagb-post-grid .uagb-post__title {
+        display: block;
+        padding: 1rem;
+        color: $red;
+        background: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        a {
+            color: $red;
+            writing-mode: vertical-rl;
+            white-space: nowrap;        
+        }
+    }
+    
+    .yabu_2column{
+        article{
+            height: 220px;
+        }
+    }
+    .yabu_button {
+        margin-bottom: 55px;
+        a.uagb-marketing-btn__link {
+            width: 100%;
+            background: $red;
+            border-radius: 8px;
+            padding: 16px;
+        }
+    }
+    .yabu_menu{
+        .wp-block-image:not(.is-style-rounded) img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50px;
+        }
+        .uagb-columns__columns-2 {
+            gap: 16px;
+            align-items: center;
+        }
+    }
+}
